@@ -1,0 +1,56 @@
+ .app__outServices-wh-dots {
+    content: " ";
+    width: 150px; 
+    height: 3px;
+    background: radial-gradient(circle closest-side, var(--secondary-color) 99%,rgba(0,0,0,0) 100%);
+    margin: 0 10px;
+    background-size: 6px 2px;
+    background-repeat: repeat-x;
+}
+
+
+ .app__outServices {
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    
+ }
+
+
+ .app__outServices-outer {
+    padding : 20px;
+ }
+
+ .app__outServices-inner {
+    padding: 0 40px;
+ }
+
+ .app__outServices-wh-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+ }
+
+ .app__outServices-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .style-wh {
+    color: var(--primary);
+    margin: 1rem 0;
+    text-transform: uppercase;
+    font-style: italic;
+ }
+
+ .app__outServices-wh-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    margin-bottom: 12px; 
+    color: var(--secondary-color);
+    text-shadow: none;
+    margin: 1rem 0;
+}

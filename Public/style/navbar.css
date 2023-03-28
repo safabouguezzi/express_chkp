@@ -1,0 +1,23 @@
+
+
+
+
+
+body {
+    background-color: var(--bg-black) !important;
+    color: var(--famous-color) !important;
+}
+
+.app__logo {
+    margin: 0.5rem 1rem;
+    width: 2.3rem;
+    height: 2.5rem;
+/* filter: invert(69%) sepia(20%) saturate(1510%) hue-rotate(1deg) brightness(100%) contrast(87%) !important; */
+filter : invert(1%) sepia(11%) saturate(6693%) hue-rotate(312deg) brightness(100%) contrast(83%);
+}
+
+.app__flex {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}

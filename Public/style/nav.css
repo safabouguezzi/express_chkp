@@ -1,0 +1,76 @@
+.app__navbar {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2rem;
+    background: rgba(8, 8, 8, 0.072);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(241, 201, 114, 0.45);
+    position: fixed;
+    z-index: 2;
+}
+
+.app__logo {
+filter : invert(1%) sepia(11%) saturate(6693%) hue-rotate(312deg) brightness(100%) contrast(83%);
+}
+
+.app__navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.app__navbar-logo  img {
+    width: 2.6rem;
+    height: 2.8rem;
+    }
+
+    @media screen and (min-width: 2000px) {
+        .app__navbar-logo { width: 140px;
+        height: 140px; 
+    }
+}
+
+
+.app__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    }
+
+
+
+    .app__navbar-links  li {
+            margin: 0 1rem;
+            cursor: pointer;
+        
+            flex-direction: column;
+        }
+
+     
+     .app__navbar-links a {
+                    text-decoration: none;
+                    color: var(--secondary-color);
+                    
+                    text-transform: uppercase;
+                    font-weight: 600;
+            
+                    transition: all 0.2s ease-in-out;
+            
+                    }
+
+                    .app__navbar-links a:hover {
+                                color: var(--primary-color);
+                                text-decoration: none;
+                            }
+                        
+
+
+
